@@ -28,7 +28,7 @@ export default function Home() {
         <Carousel keyboard={true}>
           <Carousel.Item >
             <Image
-              src="https://lh3.googleusercontent.com/4b8sK-AH20shd6rfMLGdggXSWkL97efnKPVwBHzQPvddcY3-7fS7qn40UqDQjv_QDXvxPTamma-w0xplrAakAkynx3180NfaxJ6FEc1Qjy2N3cRvslY7BaqBG261eUMxGEaGQA3IW0GN7UgjWQJlwlXMHzirTOlYm_OOD01L4G0PmsnEhOSHeIW1HrUoT-Fn7kOw-LuFYj22V3G6E-Tj4cIDJmPyJEMHs-DdhXvJIz_rvuh4-YbyHB67AODCGf1kjLiirtF-1wotZje6Fioh5keyOcarbd85jHPrWebErcsFSBZj7btY9jeYJg5zWBvibMqcpZJsnZPCI0HmYwlZB-7C6cyAd5KOtNsxK8EKmzl04fN8bItDGysYfuhMWhG9zb-a3I-DpsfO51UDs3iNJQP6eK6PiH7oSjll96S-S_GkLc02OrK7L0OMxz-Hnh0Hm8nxAKQ4Wq9T_XtNRwNSlVtzKu4dPXCyCh3cYcEZx-4mDDLzKE27kAepCnorSLsYTfDsfAZoskNXFDGXjzNittvHxbYr1Y8aywB8IhHRuh_2qcPx1fh3bJ5mez41PUQzqvvo_h1Kp4BqqfqhOOPjKZN7IsDL9UdpQ-Ym_alHoR_nRo3UhqEsz3Fo4XNO8Ea_5HxPTC3wWu3VqmzpFHOc4LP_y8mOEn3Ne-iMpHzhjETuFd_heiFLM7knY62abl0=w2048-h693-no?authuser=0"
+              src="school.jpg"
               alt="First slide"
               fluid
             />
@@ -38,10 +38,10 @@ export default function Home() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://lh3.googleusercontent.com/4b8sK-AH20shd6rfMLGdggXSWkL97efnKPVwBHzQPvddcY3-7fS7qn40UqDQjv_QDXvxPTamma-w0xplrAakAkynx3180NfaxJ6FEc1Qjy2N3cRvslY7BaqBG261eUMxGEaGQA3IW0GN7UgjWQJlwlXMHzirTOlYm_OOD01L4G0PmsnEhOSHeIW1HrUoT-Fn7kOw-LuFYj22V3G6E-Tj4cIDJmPyJEMHs-DdhXvJIz_rvuh4-YbyHB67AODCGf1kjLiirtF-1wotZje6Fioh5keyOcarbd85jHPrWebErcsFSBZj7btY9jeYJg5zWBvibMqcpZJsnZPCI0HmYwlZB-7C6cyAd5KOtNsxK8EKmzl04fN8bItDGysYfuhMWhG9zb-a3I-DpsfO51UDs3iNJQP6eK6PiH7oSjll96S-S_GkLc02OrK7L0OMxz-Hnh0Hm8nxAKQ4Wq9T_XtNRwNSlVtzKu4dPXCyCh3cYcEZx-4mDDLzKE27kAepCnorSLsYTfDsfAZoskNXFDGXjzNittvHxbYr1Y8aywB8IhHRuh_2qcPx1fh3bJ5mez41PUQzqvvo_h1Kp4BqqfqhOOPjKZN7IsDL9UdpQ-Ym_alHoR_nRo3UhqEsz3Fo4XNO8Ea_5HxPTC3wWu3VqmzpFHOc4LP_y8mOEn3Ne-iMpHzhjETuFd_heiFLM7knY62abl0=w2048-h693-no?authuser=0"
+            <Image
+              src="school.jpg"
               alt="Second slide"
+              fluid
             />
             <Carousel.Caption>
               <h3>Second slide label</h3>
@@ -49,10 +49,10 @@ export default function Home() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://lh3.googleusercontent.com/4b8sK-AH20shd6rfMLGdggXSWkL97efnKPVwBHzQPvddcY3-7fS7qn40UqDQjv_QDXvxPTamma-w0xplrAakAkynx3180NfaxJ6FEc1Qjy2N3cRvslY7BaqBG261eUMxGEaGQA3IW0GN7UgjWQJlwlXMHzirTOlYm_OOD01L4G0PmsnEhOSHeIW1HrUoT-Fn7kOw-LuFYj22V3G6E-Tj4cIDJmPyJEMHs-DdhXvJIz_rvuh4-YbyHB67AODCGf1kjLiirtF-1wotZje6Fioh5keyOcarbd85jHPrWebErcsFSBZj7btY9jeYJg5zWBvibMqcpZJsnZPCI0HmYwlZB-7C6cyAd5KOtNsxK8EKmzl04fN8bItDGysYfuhMWhG9zb-a3I-DpsfO51UDs3iNJQP6eK6PiH7oSjll96S-S_GkLc02OrK7L0OMxz-Hnh0Hm8nxAKQ4Wq9T_XtNRwNSlVtzKu4dPXCyCh3cYcEZx-4mDDLzKE27kAepCnorSLsYTfDsfAZoskNXFDGXjzNittvHxbYr1Y8aywB8IhHRuh_2qcPx1fh3bJ5mez41PUQzqvvo_h1Kp4BqqfqhOOPjKZN7IsDL9UdpQ-Ym_alHoR_nRo3UhqEsz3Fo4XNO8Ea_5HxPTC3wWu3VqmzpFHOc4LP_y8mOEn3Ne-iMpHzhjETuFd_heiFLM7knY62abl0=w2048-h693-no?authuser=0"
-              alt="Third slide"
+            <Image
+              src="school.jpg"
+              alt="First slide"
+              fluid
             />
             <Carousel.Caption>
               <h3>Third slide label</h3>
@@ -71,7 +71,6 @@ export default function Home() {
                         <Card.Img
                           variant="top" 
                           src="https://lh3.googleusercontent.com/i94mr_X0fWNbVRLYSI30zPt5AanjC2rjjJjwb93LwpuqzIaELuAK9RccoXq-_p2mbCArUAXBGI8cZQJY0SjdlUZRsRM1fX1Za9Bqp144QVHqzU9ks2NIPJv6BUZMoHSRN5owhkKQsGul7KdZOAKppHcxDAKCcEeXnepl-ffJMXWrRAicL-xoCDm7x9ipCgzPZlUHxoe46BoDOprIGc01ND7mYox7eDHJ3sDAWaT4lhtI0bpPLWAEOkUkr_Xavi-ZroLdVmRTXalWsFd_ldl53QdzJe-ybHw0ppc1Ctx2j2qujw4U587YRtLchBRfBMp-FnJuqt8XMVFasX7Vzh_0C_bT7RPsmRsiWUAHC_jMpJZa225WD4KhqEck3uy6j1nOkboNKaH40RloccabTsu7UazNRHpdMVeY5Bel9RD2L5WzfPHneHgEOhRMJRsudleYf-6XkSAOkhanuis2gC9miFBQ62UJQkDhtP2kK08i-IrcZHGhI4nluYtJ_za4iiaHMvuvaqSeH_DUCXSxANYkYCxvuhNVM4eKpI0_WZ7CfnKPa5VBIB-746EvbKPMzSxj9o47nD4eLEpuVfs0SBlcXyFPcOae1OXiOZcz461IYy4ru19YUP0X7Wm6NuW7ZRzibVv3RzKdIqWgs85Qgvu1SAfBSgQsmRb8omwVwBAVSnMYI68fw5yzhANf90yW2Q=w1168-h1532-no?authuser=1" 
-                          roundedCircle
                         />
                       </Col>
                       <Col>
