@@ -49,21 +49,21 @@ export default function Home() {
           </ol>
           <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className="d-block w-100 img-thumbnail" src="school_1.jpg" alt="First slide" />
+                <img className="d-block w-100 img-thumbnail" src="slide_photo1.jpeg" alt="First slide" />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>School</h5>
+                  <h5> <b>क्रिडा सामने</b></h5>
                 </div>
               </div>
               <div className="carousel-item">
-                <img className="d-block w-100 img-thumbnail" src="school_1.jpg" alt="Second slide" />
+                <img className="d-block w-100 img-thumbnail" src="slide_photo2.jpeg" alt="Second slide" />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>School</h5>
+                  <h5> <b>राष्ट्रीय दिन</b> </h5>
                 </div>
               </div>
               <div className="carousel-item">
-                <img className="d-block w-100 img-thumbnail" src="school_1.jpg" alt="Second slide" />
+                <img className="d-block w-100 img-thumbnail" src="slide_photo3.jpeg" alt="Second slide" />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>School</h5>
+                  <h5> <b>सांस्कृतिक कार्यक्रम</b> </h5>
                 </div>
               </div>              
           </div>
@@ -80,7 +80,7 @@ export default function Home() {
     <hr></hr>
     <section className="container-fluid" style={{paddingTop:"2%", maxWidth:"80%"}} id="principal">
       <h3 className="text-center">
-      आमचे प्राध्यापक
+      आमचे मुख्याधापक
       </h3>
       <div className="row" style={{marginTop:"3%"}}>
         <div className="col col-12 col-sm-6" style={{maxHeight : "170px", overflow: "scroll"}}>  
@@ -88,14 +88,16 @@ export default function Home() {
               <div className="col col-lg-3" >
                 <figure className="figure">
                   <img src="principal.jpg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "120px", border:"1px solid #B3B0AA"}} />
-                  <figcaption className="figure-caption text-center" > <b>संकेत किनकर</b> ​</figcaption>
+                  <figcaption className="figure-caption text-center" > <b>संकेत किनकर</b> <br/> <small>(प्राथमिक मुख्याधापक)</small></figcaption>
                 </figure>
               </div>
               <div className="col col-lg-9" style={{maxHeight : "170px", overflow: "scroll"}}>
                   तुमच्याकडे जर जुने स्मार्ट मोबाइल फोन ,लॅपटॉप ,टॅबलेट किंवा कॉम्प्युटर असतील? तर ते *शारदाश्रम विद्यामंदिर* च्या अशा विद्यार्थ्यांना डोनेट करा ज्यांच्याकडे ऑनलाइन प्रशिक्षण घेण्यासाठी कोणतेही साहित्य उपलब्ध नाही.
-                  आम्ही 15 ऑगस्ट पर्यंत जवळपास 100 + वरील उपकरणे जमा करण्याची मोहीम हाती घेतली आहे .जेणेकरून विद्यार्थी शिक्षणावाचून वंचित राहणार नाहीत.
-                  आपले नाव ,फोन नंबर,पत्ता आणि उपकारणाची संक्षिप्त माहिती द्यावी.
-                  तुम्ही शाळेत या वस्तू खालील पत्त्यावर पोचवू शकता.
+                  <br></br>
+                  <div>
+                  <span style={{float:'right'}}>- <b>संकेत किनकर </b></span><br/>
+                  <span style={{float:'right'}}><small>[M.A. D.ed. B.ed. M.ed.]</small></span>
+                  </div>
               </div>
             </div>
         </div>
@@ -104,7 +106,7 @@ export default function Home() {
               <div className="col col-lg-3">
                 <figure className="figure" >
                   <img src="principal.jpg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "120px", border:"1px solid #B3B0AA"}} />
-                  <figcaption className="figure-caption text-center" > <b>संकेत किनकर</b> ​</figcaption>
+                  <figcaption className="figure-caption text-center" > <b>रामदास टेकाम</b><br/><small>(माध्यमिक मुख्याधापक)</small> ​</figcaption>
                 </figure>
               </div>
               <div className="col col-lg-9">
@@ -132,31 +134,31 @@ export default function Home() {
       <h3 style={{textAlign: "center"}}>उपक्रम</h3>
     <div className="card-deck p-4" id="ach">
         <div className="card">
-          <img className="card-img-top" src="kabaddi.jpg" alt="Card image cap" />
+          <img className="card-img-top" src="krida.jpeg" alt="Card image cap" />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 className="card-title text-center"> <b>क्रीडा</b></h5>
+            {/* <p className="card-text"></p> */}
           </div>
         </div>
         <div className="card">
-          <img className="card-img-top" src="kabaddi.jpg" alt="Card image cap" />
+          <img className="card-img-top" src="pariksha.jpeg" alt="Card image cap" />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <h5 className="card-title text-center"> <b>स्पर्धा परीक्षा </b></h5>
+            {/* <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p> */}
           </div>
         </div>
         <div className="card">
-          <img className="card-img-top" src="kabaddi.jpg" alt="Card image cap" />
+          <img className="card-img-top" src="pariksha.jpeg" alt="Card image cap" />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <h5 className="card-title text-center">जयंती</h5>
+            {/* <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p> */}
           </div>
         </div>
         <div className="card">
-          <img className="card-img-top" src="kabaddi.jpg" alt="Card image cap" />
+          <img className="card-img-top" src="pariksha.jpeg" alt="Card image cap" />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <h5 className="card-title text-center">जयंती</h5>
+            {/* <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p> */}
           </div>
         </div>
       </div>
