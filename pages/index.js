@@ -87,7 +87,7 @@ export default function Home() {
             <div className="row">
               <div className="col col-lg-3" >
                 <figure className="figure">
-                  <img src="principal.jpg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "120px", border:"1px solid #B3B0AA"}} />
+                  <img src="principal.jpg" className="figure-img img-fluid rounded" style={{display: "inline-block", maxHeight: "120px", border:"1px solid #B3B0AA"}} />
                   <figcaption className="figure-caption text-center" > <b>संकेत किनकर</b> <br/> <small>(प्राथमिक मुख्याधापक)</small></figcaption>
                 </figure>
               </div>
@@ -105,7 +105,7 @@ export default function Home() {
             <div className="row">
               <div className="col col-lg-3">
                 <figure className="figure" >
-                  <img src="principal.jpg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "120px", border:"1px solid #B3B0AA"}} />
+                  <img src="tekam.jpeg" className="figure-img img-fluid rounded" style={{display: "inline-block", maxHeight: "120px", border:"1px solid #B3B0AA"}} />
                   <figcaption className="figure-caption text-center" > <b>रामदास टेकाम</b><br/><small>(माध्यमिक मुख्याधापक)</small> ​</figcaption>
                 </figure>
               </div>
@@ -171,44 +171,128 @@ export default function Home() {
       <div className="row p-4">
         <div className="col col-4 col-sm-2">
                 <figure className="figure">
-                  <img src="principal.jpg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"1px solid #B3B0AA"}} />
-                  <figcaption className="figure-caption text-center" >संकेत किनकर <br></br> (कर्मचारी)​</figcaption>
+                  <img src="tekam.jpeg" className="figure-img img-fluid rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.01px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >रामदास टेकाम<br></br>(माध्यमिक मुख्याधापक)​</figcaption>
                 </figure>
         </div>
         <div className="col col-4 col-sm-2">
                 <figure className="figure">
                   <img src="principal.jpg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
-                  <figcaption className="figure-caption text-center" >संकेत किनकर <br></br> (कर्मचारी) ​</figcaption>
+                  <figcaption className="figure-caption text-center" > संकेत किनकर <br></br> (प्राथमिक मुख्याधापक) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="sandipw.jpeg" className="figure-img img-fluid rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >सन्दिप वन्कर <br></br> (प्रयोग्शला परिचर) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="gunvantm.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >गुनवन्त मसुलकर<br></br> (प्रथमिक शिक्षक) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="parbata.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >पर्बता डोदवर <br></br>(स्वयम्पकी)</figcaption>
                 </figure>
         </div>
         <div className="col col-4 col-sm-2">
                 <figure className="figure">
                   <img src="principal.jpg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
-                  <figcaption className="figure-caption text-center" > संकेत किनकर <br></br> (कर्मचारी) ​</figcaption>
+                  <figcaption className="figure-caption text-center" >भुपल कोवे<br></br> (स्वयम्पकी) ​</figcaption>
                 </figure>
         </div>
         <div className="col col-4 col-sm-2">
                 <figure className="figure">
-                  <img src="principal.jpg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
-                  <figcaption className="figure-caption text-center" >संकेत किनकर <br></br> (कर्मचारी) ​</figcaption>
+                  <img src="datta.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >दत्ता कसरेवर<br></br> (कामथी) ​</figcaption>
                 </figure>
         </div>
         <div className="col col-4 col-sm-2">
                 <figure className="figure">
-                  <img src="principal.jpg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
-                  <figcaption className="figure-caption text-center" >संकेत किनकर <br></br> (कर्मचारी)​</figcaption>
+                  <img src="tukaram.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >तुकारम काले <br></br> (प्रथमिक शिक्षक) ​</figcaption>
                 </figure>
         </div>
         <div className="col col-4 col-sm-2">
                 <figure className="figure">
-                  <img src="principal.jpg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
-                  <figcaption className="figure-caption text-center" >संकेत किनकर <br></br> (कर्मचारी) ​</figcaption>
+                  <img src="neeta.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >निता पातील<br></br> (माध्यमिक शिक्षक ) ​</figcaption>
                 </figure>
         </div>
         <div className="col col-4 col-sm-2">
                 <figure className="figure">
-                  <img src="principal.jpg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
-                  <figcaption className="figure-caption text-center" >संकेत किनकर <br></br> (कर्मचारी) ​</figcaption>
+                  <img src="kaudu.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >कौदु षेवर्कर <br></br> (स्वयम्पकी) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="indira.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >इन्दिरा मसराम<br></br> (अधिक्षिका) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="vandana.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >वन्दना कर्मिल्कर <br></br> (स्वयम्पकी) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="padmakar.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >पद्मकर इङोले <br></br> (अधिक्षक) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="vinod.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >विनोद भोयर<br></br> (मध्यमिक शिक्षक) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="satish.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >सतिश वतिले<br></br> (मध्यमिक शिक्षक) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="dadarao.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >ददरओ बोर्दे<br></br> (प्रथमिक शिक्षक) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="dauji.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >दग्दुजी वघ <br></br> (प्रथमिक शिक्षक) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="savita.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >सविता रामापुरे<br></br> (प्रथमिक शिक्षक) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="taksande.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >तक्सन्दे<br></br> ( मध्यमिक शिक्षक ) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="lata.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >लता देव्रे<br></br> (प्रथमिक शिक्षक) ​</figcaption>
+                </figure>
+        </div>
+        <div className="col col-4 col-sm-2">
+                <figure className="figure">
+                  <img src="vidyadhar.jpeg" className="figure-img img-fluid img-thumbnail rounded" style={{display: "inline-block", maxHeight: "140px",border:"0.5px solid #B3B0AA"}} />
+                  <figcaption className="figure-caption text-center" >विद्यधर रौत<br></br> (प्रथमिक शिक्षक) ​</figcaption>
                 </figure>
         </div>
       </div>
